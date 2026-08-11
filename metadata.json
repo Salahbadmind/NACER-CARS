@@ -1,0 +1,10 @@
+{
+  "name": "VOITURE-LUXE-HAMADA",
+  "description": "KADEX DZ - معرض السيارات الحديثة والفاخرة بعنابة (الشط) - تسليم فوري بالجزائر",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

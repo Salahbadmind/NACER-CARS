@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>معرض السيارات الحديثة والفاخرة بعنابة (الشط) - تسليم فوري بالجزائر</title>
+    <meta name="description" content="معرض السيارات الحديثة والفاخرة بعنابة (الشط) بالجزائر: تسليم فوري لجميع السيارات المعروضة، وثائق رسمية ومطابقة 100% ومعاينة وتجربة حينية." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              gold: {
+                400: '#F3C64A',
+                500: '#D4AF37',
+                600: '#AA820A',
+              },
+              brand: {
+                red: '#E52B50',
+                dark: '#0D0F12',
+                card: '#161B22',
+                accent: '#238636',
+              }
+            },
+            fontFamily: {
+              cairo: ['Cairo', 'sans-serif'],
+              alexandria: ['Alexandria', 'Cairo', 'sans-serif'],
+              elmessiri: ['"El Messiri"', 'Cairo', 'serif'],
+              tajawal: ['Tajawal', 'Cairo', 'sans-serif'],
+              sans: ['Inter', 'Cairo', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800;900&family=Cairo:wght@400;500;600;700;800;900&family=El+Messiri:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@500;700;800;900&display=swap');
+      
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+
+      body {
+        font-family: 'Alexandria', 'Cairo', 'Inter', sans-serif;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f1218;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2a313d;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4AF37;
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .animate-fade-in {
+        animation: fadeIn 0.4s ease-out forwards;
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-gray-900 text-gray-100 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
