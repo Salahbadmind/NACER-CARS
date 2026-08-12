@@ -1247,15 +1247,6 @@ const AdminPanel: React.FC<AdminPanelProps> = ({
 
                     <div className="flex items-center gap-2">
                       <button
-                        onClick={onResetCatalog}
-                        className="px-3 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-bold flex items-center gap-1.5 transition-colors"
-                        title="استعادة السيارات الافتراضية"
-                      >
-                        <RefreshCw className="w-3.5 h-3.5" />
-                        <span>استعادة الافتراضي</span>
-                      </button>
-
-                      <button
                         onClick={openAddModal}
                         className="px-4 py-2 rounded-xl bg-amber-500 text-gray-950 text-xs font-black flex items-center gap-1.5 shadow-md hover:bg-amber-400 transition-colors"
                       >
